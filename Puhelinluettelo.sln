@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Puhelinluettelo", "Puhelinluettelo\Puhelinluettelo.csproj", "{C3DBB407-FE50-4484-99FC-F7061BC82604}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3DBB407-FE50-4484-99FC-F7061BC82604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3DBB407-FE50-4484-99FC-F7061BC82604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3DBB407-FE50-4484-99FC-F7061BC82604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3DBB407-FE50-4484-99FC-F7061BC82604}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1482904F-E0DA-4C0C-BE84-BDC8DA4FC4EF}
+	EndGlobalSection
+EndGlobal
