@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Puhelinluettelo
@@ -11,12 +8,14 @@ namespace Puhelinluettelo
     /// <summary>
     /// The main entry point for the application.
     /// </summary>
+    public static Numerotietue nrotietue;
     [STAThread]
     static void Main()
     {
       Application.EnableVisualStyles();
       Application.SetCompatibleTextRenderingDefault(false);
-      Application.Run(new Form1());
+      nrotietue = new Numerotietue();  /* Konstruktoria ei saa kutsua ennen SetCompatibleTextRenderingDefault ia*/
+      Application.Run(nrotietue);
     }
   }
 }
