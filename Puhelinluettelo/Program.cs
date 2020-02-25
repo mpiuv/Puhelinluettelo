@@ -15,6 +15,7 @@ namespace Puhelinluettelo
       Application.EnableVisualStyles();
       Application.SetCompatibleTextRenderingDefault(false);
       nrotietue = new Numerotietue();  /* Konstruktoria ei saa kutsua ennen SetCompatibleTextRenderingDefault ia*/
+      nrotietue.Text = "Puhelinluettelo";
       Application.Run(nrotietue);
     }
   }

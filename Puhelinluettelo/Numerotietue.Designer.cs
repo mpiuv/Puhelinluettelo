@@ -153,6 +153,7 @@
             this.column_etunimi,
             this.column_sukunimi,
             this.column_puhelinnumero});
+      this.listviewdatabase.HideSelection = false;
       this.listviewdatabase.Location = new System.Drawing.Point(23, 284);
       this.listviewdatabase.Name = "listviewdatabase";
       this.listviewdatabase.Size = new System.Drawing.Size(431, 125);
@@ -178,7 +179,7 @@
       this.Controls.Add(this.label2);
       this.Controls.Add(this.listviewdatabase);
       this.Name = "Numerotietue";
-      this.Text = "Form1";
+      this.Text = "Puhelinluettelo";
       this.ResumeLayout(false);
       this.PerformLayout();
 
